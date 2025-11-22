@@ -1,6 +1,3 @@
-
-
-
 def split_before_each_uppercases(formula):
     split_formula = []
     start = 0 
@@ -34,8 +31,6 @@ def count_atoms_in_molecule(molecular_formula):
         atom_name, atom_count = split_at_first_digit(atom)
         atoms_count_dict[atom_name] = atoms_count_dict.get(atom_name, 0) + atom_count
     return atoms_count_dict
-
-
 
 def parse_chemical_reaction(reaction_equation):
     """Takes a reaction equation (string) and returns reactants and products as lists.  
